@@ -96,6 +96,7 @@ filter: grayscale(100%);
 -o-transition: 300ms ease-out;
 transition: 300ms ease-out;
 -webkit-backface-visibility: hidden;
+backface-visibility: hidden;
 }
 
 .portfolio .item a img.hovering {
@@ -120,6 +121,7 @@ background: url("../images/mask.png") no-repeat;
 -o-transition:-o-transform 300ms ease-out;
 transition:transform 300ms ease-out;
 -webkit-backface-visibility: hidden;
+backface-visibility: hidden;
 }
 
 .portfolio .item-logo span.mask2 {
@@ -131,6 +133,7 @@ left: -50px;
 z-index: 2;
 background: url("../images/logo.png") no-repeat;
 -webkit-backface-visibility: hidden;
+backface-visibility: hidden;
 }
 
 .portfolio .item a span.mask:hover{
