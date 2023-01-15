@@ -10,7 +10,7 @@ body {
 }
 
 #logo {
-	width: 740px;
+	width: 60%;
 	height: 100px;
   	margin: 0 auto;
 	background-color: #F00;	
@@ -18,127 +18,137 @@ body {
 
 .portfolio {
   text-align: center;
-  width: 740px;
+  width: 60%;
   margin: 0 auto;
 }
-  .portfolio .item {
-    float: left;
-    margin: 20px;
-    width: 205px;
-  }
-    .item .portfolio-title {
-      position: relative;
-      float: left;
-      width: 100%;
-      height: 60px;
-      overflow: hidden;
-      margin-top: 20px;
-    }
+
+.portfolio .item {
+	float: left;
+	margin: 20px;
+	width: 205px;
+}
+
+.item .portfolio-title {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+
 
 /* @group top page */
 
-      .item .portfolio-title h4 {
-        position: relative;
-        line-height: 1.4em;
-        width: 100%;
-        height: 60px;
-        text-align: center;
-        font-weight: bold;
-        color: #777;
-      }
-        .portfolio-title h4 span.date {
-        color: #aaa;
-          font-size: 10px;
-        }
-        .portfolio-title h4 span.view {
-          width: 100%;
-          position: absolute;
-          margin: 0 auto;
-          left: 0;
-          color: #4EA838;
-          top: 60px;
-        }
+.item .portfolio-title h4 {
+position: relative;
+line-height: 1.4em;
+width: 100%;
+height: 60px;
+text-align: center;
+font-weight: bold;
+color: #777;
+}
+.portfolio-title h4 span.date {
+color: #aaa;
+	font-size: 10px;
+}
+.portfolio-title h4 span.view {
+	width: 100%;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	color: #4EA838;
+	top: 60px;
+}
         
-    .portfolio .item-logo {
-      float: left;
-      width: 200px;
-      height: 220px;
-    	margin: 20px;
-      overflow: hidden;
-      display: block;  
-      position: relative;
-    }
-    
-    .portfolio .item a {
-      float: left;
-      width: 200px;
-      height: 200px;
-      overflow: hidden;
-      display: block;  
-      position: relative;
-    }
-      .portfolio .item a img {
-        position: absolute;
-        left: -75px;
-        top: 0;
-        -webkit-filter: grayscale(100%);
-      	-moz-filter: grayscale(100%);
-      	-o-filter: grayscale(100%);
-      	-ms-filter: grayscale(100%);
-      	filter: grayscale(100%);
-        -webkit-transition: 300ms ease-out;
-      	-moz-transition: 300ms ease-out;
-      	-o-transition: 300ms ease-out;
-      	transition: 300ms ease-out;
-      	-webkit-backface-visibility: hidden;
-      }
-      .portfolio .item a img.hovering {
-        left: -50px;
-        -webkit-filter: grayscale(0%);
-      	-moz-filter: grayscale(0%);
-      	-o-filter: grayscale(0%);
-      	-ms-filter: grayscale(0%);
-      	filter: grayscale(0%);
-      }
-      .portfolio .item a span.mask {
-        width: 304px;
-        height: 304px;
-        position: absolute;
-        top: -52px;
-        left: -52px;
-        z-index: 2;
-        background: url("../images/mask.png") no-repeat;
-        -webkit-transition:-webkit-transform 300ms ease-out;
-      	-moz-transition:-moz-transform 300ms ease-out;
-      	-o-transition:-o-transform 300ms ease-out;
-      	transition:transform 300ms ease-out;
-      	-webkit-backface-visibility: hidden;
-      }
-      .portfolio .item-logo span.mask2 {
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        top: -50px;
-        left: -50px;
-        z-index: 2;
-        background: url("../images/logo.png") no-repeat;
-      	-webkit-backface-visibility: hidden;
-      }
-      .portfolio .item a span.mask:hover{
-      	-webkit-transform:rotate(30deg);
-      	-moz-transform:rotate(30deg);
-          -ms-transform:rotate(30deg);
-      	-o-transform:rotate(30deg);
-      	transform:rotate(30deg);
-      }
+.portfolio .item-logo {
+float: left;
+width: 200px;
+height: 220px;
+margin: 20px;
+overflow: hidden;
+display: block;  
+position: relative;
+}
 
+.portfolio .item a {
+float: left;
+width: 200px;
+height: 200px;
+overflow: hidden;
+display: block;  
+position: relative;
+}
+
+.portfolio .item a img {
+position: absolute;
+left: -75px;
+top: 0;
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+filter: grayscale(100%);
+-webkit-transition: 300ms ease-out;
+-moz-transition: 300ms ease-out;
+-o-transition: 300ms ease-out;
+transition: 300ms ease-out;
+-webkit-backface-visibility: hidden;
+}
+
+.portfolio .item a img.hovering {
+left: -50px;
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+-ms-filter: grayscale(0%);
+filter: grayscale(0%);
+}
+
+.portfolio .item a span.mask {
+width: 304px;
+height: 304px;
+position: absolute;
+top: -52px;
+left: -52px;
+z-index: 2;
+background: url("../images/mask.png") no-repeat;
+-webkit-transition:-webkit-transform 300ms ease-out;
+-moz-transition:-moz-transform 300ms ease-out;
+-o-transition:-o-transform 300ms ease-out;
+transition:transform 300ms ease-out;
+-webkit-backface-visibility: hidden;
+}
+
+.portfolio .item-logo span.mask2 {
+width: 300px;
+height: 300px;
+position: absolute;
+top: -50px;
+left: -50px;
+z-index: 2;
+background: url("../images/logo.png") no-repeat;
+-webkit-backface-visibility: hidden;
+}
+
+.portfolio .item a span.mask:hover{
+-webkit-transform:rotate(30deg);
+-moz-transform:rotate(30deg);
+	-ms-transform:rotate(30deg);
+-o-transform:rotate(30deg);
+transform:rotate(30deg);
+}
 
 /* @end */
+
+
 
 /* @group detail page */
 
 .item-detail {
-	width: 740px;
+	width: 100%;
 	height: 500px;
 	text-align: left;
 	font-size: 14px;
@@ -149,83 +159,87 @@ body {
 .meta-info {
 	float: left;
 	padding-top: 20px;
-	width: 500px;
+	width: 100%;
 	height: 220px;
 }
 
-	.meta-info h2 {
-		float: left;
-		font-size: 18px;
-		line-height: 1.4em;
-		font-weight: bold;
-		margin-bottom: 10px;
-	}
-
-	.meta-info .date-detail {
-		font-size: 12px;
-		margin-bottom: 10px;
-		margin-right: 8px;
-		background-color: #333;
-		color: #FFF;
-		padding: 0 4px 0 4px;
-	}
-
-
-	.backtotop {
-		width: 200px;
-		height: 22px;
-		margin: 15px 0 15px 0;
-		font-size: 9px;
+.meta-info h2 {
+	float: left;
+	font-size: 18px;
+	line-height: 1.4em;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
 
-	.meta-info .backtotop a {
-		float: right;
-		width: 200px;
-		height: 18px;
-		background-color: #FFF;
-		text-align: center;
-		border: 1px solid #BBB;
-		color: #333;
-		text-decoration: none;
+.meta-info .date-detail {
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-right: 8px;
+	background-color: #333;
+	color: #FFF;
+	padding: 0 4px 0 4px;
 }
 
-	.meta-info .backtotop a:focus,
-	.meta-info .backtotop a:active,
-	.meta-info .backtotop a:hover
-	 {
-		background-color: #EEE;
-		border: 1px solid #BBB;
-	}
-		
-	.meta-info p {
-	clear: both;
-		margin-bottom: 10px;
-		color: #333;
-	}
 
-	.meta-info ul li {
-		list-style-type: disc;
-		margin-left: 20px;
-		margin-bottom: 6px;
-	}
-		
-	.meta-info ul li a {
-		text-decoration: none;
-	}
+.backtotop {
+	width: 200px;
+	height: 22px;
+	margin: 15px 0 15px 0;
+	font-size: 9px;
+}
 
-	.meta-info ul li a:focus,
-	.meta-info ul li a:active,
-	.meta-info ul li a:hover
-	 {
-		text-decoration: underline;
-	}
+.meta-info .backtotop a {
+	float: right;
+	width: 200px;
+	height: 18px;
+	background-color: #FFF;
+	text-align: center;
+	border: 1px solid #BBB;
+	color: #333;
+	text-decoration: none;
+}
+
+.meta-info .backtotop a:focus,
+.meta-info .backtotop a:active,
+.meta-info .backtotop a:hover
+	{
+	background-color: #EEE;
+	border: 1px solid #BBB;
+}
+		
+.meta-info p {
+clear: both;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.meta-info ul li {
+	list-style-type: disc;
+	margin-left: 20px;
+	margin-bottom: 6px;
+}
+	
+.meta-info ul li a {
+	text-decoration: none;
+}
+
+.meta-info ul li a:focus,
+.meta-info ul li a:active,
+.meta-info ul li a:hover
+	{
+	text-decoration: underline;
+}
 
 
 
 .detail {
 	clear: both;
-	width: 740px;
+	width: 60%;
 	height: 500px;
+}
+
+.detail img {
+	margin-bottom: 2rem;
 }
 
 /* @end */
